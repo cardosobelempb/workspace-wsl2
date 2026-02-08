@@ -20,3 +20,15 @@ exit
 wsl --export  Ubuntu-22.04 "C:\Users\Public\Documents\ubuntu.tar"
 wsl --import  Ubuntu-22.04 "C:" "F:\ubuntu.tar"
 ```
+
+## config
+
+```
+sudo apt update
+sudo apt upgrade
+
+<!-- NVM -->
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+nvm install --lts
+nvm use --lts
+```
